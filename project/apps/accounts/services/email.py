@@ -1,8 +1,5 @@
-from django.conf import settings
-
 from apps.accounts.models import User
 from apps.accounts.tasks.email import send_email
-from django.core.mail import send_mail
 
 
 class EmailServices:
