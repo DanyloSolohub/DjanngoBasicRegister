@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "djangobasicsregister"
+version = "0.1.0"
+description = ""
+authors = ["DanyloSolohub <danylo.solohub.te.2019@lpnu.ua>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.1"
+django-cors-headers = "^3.13.0"
+django-environ = "^0.9.0"
+django-redis = "^5.2.0"
+djangorestframework = "^3.13.1"
+drf-spectacular = "^0.23.1"
+flake8 = "^5.0.4"
+flake8-absolute-import = "^1.0.0"
+flake8-comprehensions = "^3.10.0"
+flake8-django = "^1.1.5"
+flake8-print = "^5.0.0"
+flake8-quotes = "^3.3.1"
+pep8-naming = "^0.13.2"
+redis = "4.3.4"
+psycopg2 = "^2.9.3"
+djangorestframework-simplejwt = "^5.2.0"
+celery = "^5.2.7"
+django-ses = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
